@@ -1,9 +1,18 @@
 import './Styles/App.css';
+import ContactSection from './Components/Contact';
+import AboutSection from './Components/About';
+import ProjectSection from './Components/Projects';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h2>This is the homepage</h2>
+      <Header/>
+      <AboutSection/>
+      <ProjectSection/>
+      <ContactSection/>
+      <Footer/>
     </div>
   );
 }
