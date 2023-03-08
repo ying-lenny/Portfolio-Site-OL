@@ -1,0 +1,19 @@
+.header {
+    border-bottom: 1px solid black;
+    position: relative;
+    z-index: 99;
+    top: 0;
+    height: 3em;
+    width: 100%;
+    background-color: #F6BE00;
+    padding: 1em 0;
+  }
+
+  .header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 3em;
+  }
+  
