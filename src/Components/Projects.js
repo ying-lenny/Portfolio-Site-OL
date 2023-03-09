@@ -10,6 +10,7 @@ export default function ProjectSection() {
             </ul>
             <h3>Works:</h3>
             <p>Egeplast Website</p>
+            <p>This website :0</p>
         </div>
     )
 }
