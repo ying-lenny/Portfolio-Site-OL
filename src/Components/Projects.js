@@ -12,27 +12,18 @@ export default function ProjectSection() {
                             <img src={require('../Assets/PortFoliGo-logo.png')} alt="Port"/>
                             <figcaption className="container-caption">
                                 <h1>PortFoliGo</h1>
+                                <a></a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div className="project">
+                        <figure className="project-container">
+                            <img src={require('../Assets/ege_logo1-300X50.png')} alt="Port"/>
+                            <figcaption className="container-caption">
+                                <h1>Egeplast Ireland</h1>
                                 <a className="button is-primary">
                                     <span>Visit Website</span>
                                 </a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div className="project">
-                        <figure className="project-container">
-                            <img src={require('../Assets/PortFoliGo-logo.png')} alt="Port"/>
-                            <figcaption className="container-caption">
-                                <h1>PortFoliGo</h1>
-                                <a></a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div className="project">
-                        <figure className="project-container">
-                            <img src={require('../Assets/PortFoliGo-logo.png')} alt="Port"/>
-                            <figcaption className="container-caption">
-                                <h1>PortFoliGo</h1>
-                                <a></a>
                             </figcaption>
                         </figure>
                     </div>
