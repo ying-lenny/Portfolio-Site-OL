@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
 .App {
   margin: 0%;
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .body {
   text-align: center;
+  width: 80%;
+  margin: auto;
 }

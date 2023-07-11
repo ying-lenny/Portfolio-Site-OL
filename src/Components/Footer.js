@@ -6,7 +6,7 @@ export default function Footer() {
 
     return (
         <div className="navbar">
-            <h2>This is where the Footer should be {currentYear}</h2>
+            <h2>This is where the Footer should be @ {currentYear}</h2>
         </div>
     )
 }
