@@ -7,9 +7,9 @@ export default function ProjectSection() {
       <h2>My Work</h2>
 			{/* Websites */}
       <div className="project-grid">
-        <h3>Websites</h3>
+        <h3>Big Projects</h3>
         <div className="tiles">
-          <div className="website">
+          <div className="big-project">
             <figure className="project-container">
               <img src={require("../Assets/PortFoliGoTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
@@ -20,12 +20,23 @@ export default function ProjectSection() {
               </figcaption>
             </figure>
           </div>
-          <div className="website">
+          <div className="big-project">
             <figure className="project-container">
               <img src={require("../Assets/EgeplastTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
                 <h1>Egeplast Ireland</h1>
                 <button href="https://egeplast.ie/" className="button is-primary">
+                  <span>Visit Website</span>
+                </button>
+              </figcaption>
+            </figure>
+          </div>
+					<div className="big-project">
+            <figure className="project-container">
+              <img src={require("../Assets/EOTMTEMP.png")} alt="Port" />
+              <figcaption className="container-caption">
+                <h1>Employee of the Month</h1>
+                <button href="/#" className="button is-primary">
                   <span>Visit Website</span>
                 </button>
               </figcaption>

@@ -6,7 +6,7 @@
 
 /* Website specific */
 
-.website {
+.big-project {
     width: calc((100% / 2) - 20px);
     margin: 0.5em;
 }
@@ -20,7 +20,7 @@
 
 /* General */
 
-.website img, .project img {
+.big-project img, .project img {
     width: 100%;
 }
 
