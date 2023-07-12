@@ -1,10 +1,9 @@
 import React from "react";
-import "../Styles/Projects.css";
 
 export default function ProjectSection() {
   return (
     <div className="project-section">
-      <h2>My Work</h2>
+      <h2>Overview</h2>
 			{/* Websites */}
       <div className="project-grid">
         <h3>Big Projects</h3>
@@ -14,6 +13,9 @@ export default function ProjectSection() {
               <img src={require("../Assets/PortFoliGoTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
                 <h1>PortFoliGo</h1>
+								<p>
+									JavaScript fullstack Final year project using the MERN stack
+								</p>
                 <button className="button is-primary">
                   <span>Learn More</span>
                 </button>
@@ -25,8 +27,11 @@ export default function ProjectSection() {
               <img src={require("../Assets/EgeplastTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
                 <h1>Egeplast Ireland</h1>
-                <button href="https://egeplast.ie/" className="button is-primary">
-                  <span>Visit Website</span>
+								<p>
+									Irish-based welding equipment supplier
+								</p>
+                <button className="button is-primary">
+                  <a href="https://egeplast.ie/">Visit Website</a>
                 </button>
               </figcaption>
             </figure>
@@ -36,6 +41,9 @@ export default function ProjectSection() {
               <img src={require("../Assets/EOTMTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
                 <h1>Employee of the Month</h1>
+								<p>
+									PSX-styled survival horror experience
+								</p>
                 <button href="/#" className="button is-primary">
                   <span>Visit Website</span>
                 </button>
