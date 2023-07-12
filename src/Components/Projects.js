@@ -60,7 +60,7 @@ export default function ProjectSection() {
             <figure className="project-container">
               <img src={require("../Assets/PersonalTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
-                <h1>Calculator</h1>
+                <h2>Calculator</h2>
                 <button className="button is-primary">
                   <span>Learn More</span>
                 </button>
@@ -71,7 +71,7 @@ export default function ProjectSection() {
             <figure className="project-container">
 						<img src={require("../Assets/PersonalTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
-                <h1>Rock, Paper, Scissors!</h1>
+                <h2>Rock, Paper, <br/> Scissors!</h2>
                 <button className="button is-primary">
 									<span>Learn More</span>
                 </button>
@@ -82,7 +82,7 @@ export default function ProjectSection() {
             <figure className="project-container">
               <img src={require("../Assets/PersonalTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
-                <h1>TicTacToe</h1>
+                <h2>TicTacToe</h2>
                 <button className="button is-primary">
                   <span>Learn More</span>
                 </button>
@@ -93,7 +93,7 @@ export default function ProjectSection() {
             <figure className="project-container">
               <img src={require("../Assets/PersonalTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
-                <h1>Etch-button-Sketch</h1>
+                <h2>Etch-a-Sketch</h2>
                 <button className="button is-primary">
                   <span>Learn More</span>
                 </button>
