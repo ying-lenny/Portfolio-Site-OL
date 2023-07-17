@@ -31,7 +31,7 @@ export default function ProjectSection() {
 									Irish-based welding equipment supplier
 								</p>
                 <button className="button is-primary">
-                  <a href="https://egeplast.ie/">Visit Website</a>
+                  <span>Learn More</span>
                 </button>
               </figcaption>
             </figure>
@@ -45,7 +45,7 @@ export default function ProjectSection() {
 									PSX-styled survival horror experience
 								</p>
                 <button href="/#" className="button is-primary">
-                  <span>Visit Website</span>
+                  <span>Learn More</span>
                 </button>
               </figcaption>
             </figure>
