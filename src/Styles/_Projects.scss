@@ -1,87 +1,87 @@
 .tiles {
-    display: flex;
-    flex-flow: row wrap;
-    margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
 }
 
 /* Website specific */
 
 .big-project {
-    width: calc((100% / 2) - 20px);
-    margin: 0.5em;
-    & img {
-        width: 100%;
-    }
+	width: calc((100% / 2) - 20px);
+	margin: 0.5em;
+	& img {
+		width: 100%;
+	}
 }
 
 /* Personal Project Specific */
 
 .project {
-    width: calc((100% / 4) - 0.5em);
-    margin: 0.5em 0.1em;
-    & img {
-        width: 100%;
-    }
+	width: calc((100% / 4) - 0.5em);
+	margin: 0.5em 0.1em;
+	& img {
+		width: 100%;
+	}
 }
 
 .project-container {
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 100%;
-    &:hover {
-            img {
-                filter: blur(8px);
-            }
-            figcaption{
-                opacity: 1;
-            }
-        }
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 100%;
+	&:hover {
+			img {
+				filter: blur(8px);
+			}
+			figcaption{
+				opacity: 1;
+			}
+		}
 }
 
 .container-caption {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 figcaption {
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: 0.3s;
-    color: black;
-        & h1{
-            font-size: 3em;
-            margin: 0;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;
-        }
-        & h2{
-            font-size: 2em;
-            margin: 0.5em 0;
-            -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: white;
-        }
-        & p {
-            font-size: 1em;
-            margin: 1em 0;
-            color: black;
-        }
-        & button {
-            background-color: white;
-            border: 0.1em black solid;
-            font-size: 1em;
-            padding: 0.5em;
-            width: 50%;
-        }
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: 0.3s;
+	color: black;
+		& h1{
+			font-size: 3em;
+			margin: 0;
+			-webkit-text-stroke-width: 1px;
+			-webkit-text-stroke-color: white;
+		}
+		& h2{
+			font-size: 2em;
+			margin: 0.5em 0;
+			-webkit-text-stroke-width: 1px;
+			-webkit-text-stroke-color: white;
+		}
+		& p {
+			font-size: 1em;
+			margin: 1em 0;
+			color: black;
+		}
+		& button {
+			background-color: white;
+			border: 0.1em black solid;
+			font-size: 1em;
+			padding: 0.5em;
+			width: 50%;
+		}
 }
 
 figure {
-    margin: 0;
+	margin: 0;
 }

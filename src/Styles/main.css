@@ -29,6 +29,7 @@ body {
 
 .header-links {
   font-weight: 900;
+  font-size: 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,13 +37,30 @@ body {
   padding: 0 3em;
   width: 70%;
   margin: auto;
+}
+
+.header-left a {
+  text-decoration: none;
+  text-transform: uppercase;
   color: white;
 }
 
-.header-right {
+.header-right ul {
   display: flex;
-  justify-content: space-around;
-  width: 40%;
+  align-items: center;
+  list-style-type: none;
+}
+.header-right li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.25s;
+  color: white;
+}
+.header-right li a:hover {
+  letter-spacing: 0.1em;
+}
+.header-right li:not(:first-child) a {
+  padding-left: 1em;
 }
 
 .tiles {
