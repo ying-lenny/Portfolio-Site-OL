@@ -1,0 +1,18 @@
+.project-details-container {
+    background-color: $background;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 0;
+    border: {
+        bottom-left-radius: 1em;
+        bottom-right-radius: 1em;
+    };
+}
+
+.project-details-image {
+    & img {
+        width: 70%;
+        border: 0.5em black solid;
+    }
+}

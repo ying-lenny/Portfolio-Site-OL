@@ -1,7 +1,10 @@
+import React from "react";
+import ProjectDetails from "../Components/ProjectDetails";
+
 function ProjectPage() {
 	return (
 		<div>
-			<h1>What's good homeboy!</h1>
+			<ProjectDetails/>
 		</div>
 	)
 }
