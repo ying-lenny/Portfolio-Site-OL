@@ -14,7 +14,7 @@ export default function ProjectSection() {
               <figcaption className="container-caption">
                 <h1>PortFoliGo</h1>
 								<p>
-									JavaScript fullstack Final year project using the MERN stack
+									JavaScript Final year project using the MERN stack
 								</p>
                 <button className="button is-primary">
                   <span>Learn More</span>
@@ -40,7 +40,7 @@ export default function ProjectSection() {
             <figure className="project-container">
               <img src={require("../Assets/EOTMTEMP.png")} alt="Port" />
               <figcaption className="container-caption">
-                <h1>Employee of the Month</h1>
+                <h1>Employee of <br/> the Month</h1>
 								<p>
 									PSX-styled survival horror experience
 								</p>

@@ -1,7 +1,7 @@
 function ProjectPage() {
 	return (
 		<div>
-			<h1>HI</h1>
+			<h1>What's good homeboy!</h1>
 		</div>
 	)
 }
