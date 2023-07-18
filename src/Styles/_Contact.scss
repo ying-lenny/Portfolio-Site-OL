@@ -1,0 +1,44 @@
+.contact-Section
+ 	.section-body {
+		padding: 0;
+	}
+	.section-heading {
+		margin-bottom: 0;
+	}
+
+.contact-options {
+	display: flex;
+	height: 15vh;
+	
+}
+
+.contact-linkedin {
+	background-color: #007bba;
+	border-bottom-left-radius: 1em;
+}
+
+.contact-github {
+	background-color: #010409;
+}
+
+.contact-twitter {
+	background-color: #179cf0;  
+	border-top-right-radius: 1em;
+}
+
+.contact-twitter, .contact-github, .contact-linkedin {
+	display: flex;
+	transition: 0.5s;
+	align-items: center;
+	justify-content: center;
+	width: ((100%)/3); 
+	&:hover {
+		width: ((100%)/2);
+	}
+	& img {
+		max-width: 10vh;
+	}
+	& a {
+		width: 100%; 
+	}
+}

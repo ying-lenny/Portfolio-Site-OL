@@ -7,7 +7,33 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(240, 229, 229);
+}
+
+.section-heading {
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #430303;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  padding: 0.5em;
+  font-size: 2em;
+  border-radius: 1em 0;
+}
+
+.about-text {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+}
+
+.section-body {
+  background-color: #ff9b9b;
+  padding: 1em;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 0 1em;
 }
 
 .body {
@@ -36,12 +62,13 @@ body {
   padding: 0 3em;
   width: 70%;
   margin: auto;
+  color: rgb(244, 244, 244);
 }
 
 .header-left a {
   text-decoration: none;
   text-transform: uppercase;
-  color: white;
+  color: #f4f4f4;
 }
 
 .header-right ul {
@@ -53,7 +80,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.25s;
-  color: white;
+  color: #f4f4f4;
 }
 .header-right li a:hover {
   letter-spacing: 0.1em;
@@ -74,7 +101,12 @@ body {
   background-color: #ff9b9b;
   padding: 1em;
   margin: 1em 0;
-  border-radius: 1em;
+  border-radius: 0 1em;
+}
+.project-grid h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5em;
 }
 
 .big-project {
@@ -168,4 +200,48 @@ figure {
 .project-details-image img {
   width: 70%;
   border: 0.5em black solid;
+}
+
+.contact-Section .section-body {
+  padding: 0;
+}
+
+.section-heading {
+  margin-bottom: 0;
+}
+
+.contact-options {
+  display: flex;
+  height: 15vh;
+}
+
+.contact-linkedin {
+  background-color: #007bba;
+  border-bottom-left-radius: 1em;
+}
+
+.contact-github {
+  background-color: #010409;
+}
+
+.contact-twitter {
+  background-color: #179cf0;
+  border-top-right-radius: 1em;
+}
+
+.contact-twitter, .contact-github, .contact-linkedin {
+  display: flex;
+  transition: 0.5s;
+  align-items: center;
+  justify-content: center;
+  width: 33.3333333333%;
+}
+.contact-twitter:hover, .contact-github:hover, .contact-linkedin:hover {
+  width: 50%;
+}
+.contact-twitter img, .contact-github img, .contact-linkedin img {
+  max-width: 10vh;
+}
+.contact-twitter a, .contact-github a, .contact-linkedin a {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

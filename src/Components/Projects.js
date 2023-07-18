@@ -3,7 +3,7 @@ import React from "react";
 export default function ProjectSection() {
   return (
     <div className="project-section">
-      <h2>Overview</h2>
+      <h2 className="section-heading">Overview</h2>
 			{/* Websites */}
       <div className="project-grid">
         <h3>Big Projects</h3>

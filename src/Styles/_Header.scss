@@ -18,12 +18,13 @@
     padding: 0 3em;
     width: 70%;
     margin: auto;
+    color: rgb(244, 244, 244);
   }
 
   .header-left a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: #f4f4f4;
   }
 
   .header-right {
@@ -36,7 +37,7 @@
       text-decoration: none;
       text-transform: uppercase;
       transition: 0.25s;
-      color: white;
+      color: #f4f4f4;
       &:hover {
         letter-spacing: 0.1em;
       }
