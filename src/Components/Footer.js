@@ -5,8 +5,8 @@ export default function Footer() {
 	let currentYear = new Date().getFullYear();
 
 	return (
-		<div className="navbar">
-			<h2>This is where the Footer should be @ {currentYear}</h2>
+		<div className="footer">
+			<h2>@ {currentYear} Owen Lenihan</h2>
 		</div>
 	)
 }

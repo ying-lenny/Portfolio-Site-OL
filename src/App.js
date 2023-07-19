@@ -16,8 +16,8 @@ function App() {
 				<div className='body'>
 					<Routes>
 						<Route exact path='/' element={<Homepage/>}/>
-						<Route exact path='/page' element={<ProjectPage/>}/>
-						<Route exact path='/contact' element={<ContactPage/>}/>
+						<Route exact path='/page2' element={<ProjectPage/>}/>
+						<Route exact path='/page3' element={<ContactPage/>}/>
 						{small_projects.map((small) => {
 							return (
 								<Route 

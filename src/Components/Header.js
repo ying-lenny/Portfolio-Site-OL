@@ -6,7 +6,7 @@ export default function Header() {
 		<header className="header">
 			<nav className="header-links">
 				<div className="header-left">
-					<Link to='/' >Logo on da left</Link>
+					<Link to='/' >Owen Lenihan</Link>
 				</div>
 				<div className="header-right">
 					<ul>
@@ -14,10 +14,10 @@ export default function Header() {
 							<Link to='/' >Work</Link>
 						</li>
 						<li>
-							<Link to='/page' >About</Link>
+							<Link to='/page2' >Page 2</Link>
 						</li>
 						<li>
-							<Link to='/contact' >Contact</Link>
+							<Link to='/page3' >Page 3</Link>
 						</li>
 					</ul>
 				</div>
