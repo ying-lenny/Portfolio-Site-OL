@@ -1,5 +1,6 @@
 import PersonalTEMP from './PersonalTEMP.png';
-import Calculator from './Calculator.png';
+import CalculatorIcon from './CalculatorIcon.png';
+import CalculatorFull from './CalculatorFull.png';
 import Egeplast from './EgeplastTEMP.png'
 import PortFoliGo from './PortFoliGoTEMP.png'
 import EOTM from './EOTMTEMP.png'
@@ -29,10 +30,14 @@ let small_projects = [
 	{
 		id: 0,
 		title: 'Calculator',
-		description: "Brief overview of the calculator goes here",
+		description: "An online calculator with basic arithmetic operations built using HTML5, CSS3 and JS ES6 features.",
 		images: [
-			PersonalTEMP,
-			Calculator
+			CalculatorIcon,
+			CalculatorFull
+		],
+		links: [
+			"https://github.com/ying-lenny/calculator",
+			"https://ying-lenny.github.io/calculator/",
 		]
 	},
 	{
@@ -40,7 +45,12 @@ let small_projects = [
 		title: 'Rock, Paper, Scissors!',
 		description: "Brief overview of Rock, Paper, Scissors goes here",
 		images: [
+			PersonalTEMP,
 			PersonalTEMP
+		],
+		links: [
+			"https://github.com/ying-lenny/calculator",
+			"https://ying-lenny.github.io/calculator/",
 		]
 	},
 	{
@@ -48,7 +58,12 @@ let small_projects = [
 		title: 'TicTacToe',
 		description: "Brief overview of TicTacToe goes here",
 		images: [
+			PersonalTEMP,
 			PersonalTEMP
+		],
+		links: [
+			"https://github.com/ying-lenny/calculator",
+			"https://ying-lenny.github.io/calculator/",
 		]
 	},
 	{
@@ -56,7 +71,12 @@ let small_projects = [
 		title: 'Etch-a-sketch',
 		description: "Brief overview of Etch-a-Sketch goes here",
 		images: [
+			PersonalTEMP,
 			PersonalTEMP
+		],
+		links: [
+			"https://github.com/ying-lenny/calculator",
+			"https://ying-lenny.github.io/calculator/",
 		]
 	}
 ]

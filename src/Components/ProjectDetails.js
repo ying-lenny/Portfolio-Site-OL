@@ -5,7 +5,7 @@ export default function ProjectDetails() {
 		<div>
 			<div className="project-details-container">
 				<div className="project-details-image">
-					<img src={require("../Assets/Calculator.png")} alt="Port" />
+					<img src={require("../Assets/PersonalTEMP.png")} alt="Port" />
 				</div>
 				<div>
 					<h1>Calculator</h1>

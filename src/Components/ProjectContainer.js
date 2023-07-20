@@ -19,7 +19,7 @@ function ProjectContainer() {
 			</div>
 
 			<div className="project-grid">
-				<h3>JavaScript Projects</h3>
+				<h3>Personal Projects</h3>
 					<div className="tiles">
 						{smallProjects.map((small) => (
 							<SmallProjectCard project={small} key={small.id}/>

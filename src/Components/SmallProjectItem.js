@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function SmallProjectItem( props ) {
 
     const {
-		project: { id, title, description, images },
+		project: { id, title, description, images, links },
 	} = props;
 
     return (
@@ -14,7 +14,7 @@ function SmallProjectItem( props ) {
             <div>
                 <h1>{title}</h1>
                 <h2>{description}</h2>
-                <h3>Link to: repo | live site</h3>
+                <h3>Link to: <a href={links[0]}>repo</a> | <a href={links[1]}>live site</a> </h3>
                 <Link to='/contact'>Return</Link>
             </div>
         </div>
