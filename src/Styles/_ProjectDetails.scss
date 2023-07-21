@@ -1,18 +1,75 @@
 .project-details-container {
-    background-color: $background;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2em 0;
-    border: {
-        bottom-left-radius: 1em;
-        bottom-right-radius: 1em;
-    };
+	background-color: $background;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2em;
+	border: {
+		bottom-left-radius: 1em;
+		bottom-right-radius: 1em;
+	};
+	height: 60vh;
 }
 
 .project-details-image {
-    & img {
-        width: 70%;
-        border: 0.5em black solid;
-    }
+	width: 50%;
+	& img {
+		border: 0.5em black solid;
+	}
+}
+
+.project-details-description {
+	background-color: #ffffff;
+	display: flex;
+	width: 50%;
+	border-radius: 1em;
+	padding: 0.5em;
+	height: 100%;
+	& .inner-description {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		justify-self: center;
+		padding: 1em;
+		& h2 { 
+			text-align: left;
+			width: 70%;
+			margin: auto;
+			padding: 1em;
+		}
+		& .project-details-links {
+			display: flex;
+			padding-bottom: 1em;
+			& a {
+				width: 50%;
+				background-color: #6a2f2f;
+				padding: 1em;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+				outline: 0.2em solid black;
+				transition: 0.3s;
+				
+				&:first-child{
+					border-top-left-radius: 1em;
+					border-bottom-left-radius: 1em;
+				}
+				&:not(:first-child) {
+					border-top-right-radius: 1em;
+					border-bottom-right-radius: 1em;
+				}
+				&:hover {
+					background-color: white;
+					color: black;
+					width: 60%;
+				}
+			}
+		}
+		& .return-button {
+			width: 30%;
+			border: 0.1em solid black;
+			padding: 0.5em;
+			margin: auto;
+		}
+	}
 }

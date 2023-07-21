@@ -49,8 +49,7 @@ let small_projects = [
 			PersonalTEMP
 		],
 		links: [
-			"https://github.com/ying-lenny/calculator",
-			"https://ying-lenny.github.io/calculator/",
+
 		]
 	},
 	{
