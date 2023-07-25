@@ -45,7 +45,9 @@
 	&:hover {
 			img {
 				transition: 0.2s;
-				filter: blur(8px);
+				filter: 
+					blur(8px)
+					brightness(0.6);
 			}
 			figcaption{
 				opacity: 1;
@@ -69,23 +71,17 @@ figcaption {
 	height: 100%;
 	opacity: 0;
 	transition: 0.3s;
-	color: black;
 		& h1{
-			font-size: 3em;
+			font-size: 2em;
 			margin: 0;
-			-webkit-text-stroke-width: 1px;
-			-webkit-text-stroke-color: white;
 		}
 		& h2{
 			font-size: 2em;
 			margin: 0.5em 0;
-			-webkit-text-stroke-width: 1px;
-			-webkit-text-stroke-color: white;
 		}
 		& p {
 			font-size: 1em;
 			margin: 1em 0;
-			color: black;
 		}
 		& button {
 			background-color: white;

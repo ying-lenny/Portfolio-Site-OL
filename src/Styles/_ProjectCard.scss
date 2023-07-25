@@ -1,4 +1,4 @@
-.project-details-container {
+.project-card-container {
 	background-color: $background;
 	display: flex;
 	justify-content: space-around;
@@ -11,14 +11,14 @@
 	height: 60vh;
 }
 
-.project-details-image {
+.project-card-image {
 	width: 50%;
 	& img {
 		border: 0.5em black solid;
 	}
 }
 
-.project-details-description {
+.project-card-description {
 	background-color: #ffffff;
 	display: flex;
 	width: 50%;
@@ -33,11 +33,10 @@
 		padding: 1em;
 		& h2 { 
 			text-align: left;
-			width: 70%;
 			margin: auto;
 			padding: 1em;
 		}
-		& .project-details-links {
+		& .project-card-links {
 			display: flex;
 			padding-bottom: 1em;
 			& a {

@@ -1,9 +1,9 @@
 import PersonalTEMP from './PersonalTEMP.png';
 import CalculatorIcon from './CalculatorIcon.png';
 import CalculatorFull from './CalculatorFull.png';
-import Egeplast from './EgeplastTEMP.png'
-import PortFoliGo from './PortFoliGoTEMP.png'
-import EOTM from './EOTMTEMP.png'
+import Egeplast from './EgeplastCard.png'
+import PortFoliGo from './PortFoliGoCard.png'
+import EOTM from './EOTMCard.png'
 
 let big_projects = [
 	{
