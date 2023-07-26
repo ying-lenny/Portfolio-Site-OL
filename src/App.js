@@ -3,6 +3,9 @@ import Homepage from './Pages/Homepage';
 import ProjectPage from './Pages/ProjectPage';
 import ContactPage from './Pages/ContactPage';
 import SmallProjectItem from './Components/SmallProjectItem';
+import PFG from './Components/PFG';
+import EOTM from './Components/EOTM';
+import Egeplast from './Components/Egeplast';
 import './Styles/main.css';
 import { small_projects } from './Assets/data';
 import Header from './Components/Header';
@@ -18,6 +21,9 @@ function App() {
 						<Route exact path='/' element={<Homepage/>}/>
 						<Route exact path='/page2' element={<ProjectPage/>}/>
 						<Route exact path='/page3' element={<ContactPage/>}/>
+						<Route exact path='/PortFoliGo' element={<PFG/>}/>
+						<Route exact path='/Egeplast-Ireland' element={<Egeplast/>}/>
+						<Route exact path='/Employee-of-The-Month' element={<EOTM/>}/>
 						{small_projects.map((small) => {
 							return (
 								<Route 

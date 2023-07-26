@@ -1,13 +1,22 @@
 .project-card-container {
 	background-color: $background;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	padding: 2em;
 	border: {
 		bottom-left-radius: 1em;
 		bottom-right-radius: 1em;
 	};
+}
+
+.project-card-title {
+	background-color: white;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+.project-card-body {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	height: 60vh;
 }
 

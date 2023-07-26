@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 
 function BigProjectCard(props) {
@@ -15,7 +16,7 @@ function BigProjectCard(props) {
 						{description}
 					</p>
 				<button className="button is-primary">
-				  <span>Learn More</span>
+					<Link key={id} to={`/${title.replace(/\s/g, "-")}`}>Learn More</Link>
 				</button>
 			  </figcaption>
 			</figure>

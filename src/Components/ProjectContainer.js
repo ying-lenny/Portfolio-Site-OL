@@ -9,8 +9,8 @@ function ProjectContainer() {
 
 	return (
 		<div>
-			<div className="project-grid">
-				<h3>Big Projects</h3>
+			<div className="big-project-grid">
+				<h3 className="project-grid-header">Big Projects</h3>
 					<div className="tiles">
 						{bigProjects.map((big) => (
 							<BigProjectCard project={big} key={big.id}/>
@@ -18,8 +18,8 @@ function ProjectContainer() {
 				</div>
 			</div>
 
-			<div className="project-grid">
-				<h3>Personal Projects</h3>
+			<div className="small-project-grid">
+				<h3 className="project-grid-header">Personal Projects</h3>
 					<div className="tiles">
 						{smallProjects.map((small) => (
 							<SmallProjectCard project={small} key={small.id}/>

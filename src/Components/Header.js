@@ -11,13 +11,13 @@ export default function Header() {
 				<div className="header-right">
 					<ul>
 						<li>
-							<Link to='/' >Work</Link>
+							<Link to='/'>Work</Link>
 						</li>
 						<li>
-							<Link to='/page2' >Page 2</Link>
+							<Link to='/page2'>Page 2</Link>
 						</li>
 						<li>
-							<Link to='/page3' >Page 3</Link>
+							<Link to='/page3'>Page 3</Link>
 						</li>
 					</ul>
 				</div>

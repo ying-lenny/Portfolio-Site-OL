@@ -7,16 +7,29 @@
 
 /* Website specific */
 
-.project-grid {
+.project-grid-header {
+	background-color: white;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+.big-project-grid, .small-project-grid {
 	background-color: $background;
 	padding: 1em;
-	margin: 1em 0;
-	border-radius: 0 1em;
 	& h3 {
 		text-transform: uppercase;
 		font-weight: 900;
 		font-size: 1.5em;
 	}
+}
+
+.big-project-grid {
+	border-top-right-radius: 1em;
+}
+
+.small-project-grid {
+	margin-top: 1em;
+	border-bottom-left-radius: 1em;
 }
 
 .big-project {
