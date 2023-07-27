@@ -320,4 +320,11 @@ figure {
 }
 .contact-twitter a, .contact-github a, .contact-linkedin a {
   width: 100%;
+}
+
+.egeplast-page-body {
+  display: flex;
+}
+.egeplast-page-body img {
+  max-width: 600px;
 }/*# sourceMappingURL=main.css.map */
