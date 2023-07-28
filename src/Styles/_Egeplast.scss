@@ -1,10 +1,29 @@
 .egeplast-page {
-  
+  background-color: $background;
+  padding: 2em;
+}
+
+.egeplast-header {
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
 }
 
 .egeplast-page-body {
   display: flex;
+  .egeplast-image-gallery {
+    max-width:60%;
+    margin: 1em;
+  }
   img {
-    max-width: 600px;
+    border: 1px grey solid;
+    width: 100%;
+  }
+  .egeplast-description {
+    max-width: 35%;
+    background-color: white;
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 1em;
   }
 }

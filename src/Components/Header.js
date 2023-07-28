@@ -14,10 +14,10 @@ export default function Header() {
 							<Link to='/'>Work</Link>
 						</li>
 						<li>
-							<Link to='/page2'>Page 2</Link>
+							<Link to='/personal/0'>Page 2</Link>
 						</li>
 						<li>
-							<Link to='/page3'>Page 3</Link>
+							<Link to='/Egeplast-Ireland'>Page 3</Link>
 						</li>
 					</ul>
 				</div>
