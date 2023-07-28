@@ -10,6 +10,9 @@ export default function Egeplast() {
           <CarouselTest/>
         </div>
         <div className="egeplast-description">
+          <h3>
+            Creation of a new website for a local business
+          </h3>
           <p>
             During my work placement at college, I was working with Egeplast Ireland Ltd, 
             a local supplier of welding equipment and training, to create a new website to 
@@ -26,6 +29,9 @@ export default function Egeplast() {
             as typically the type of person to use the site could be either on-site somewhere
             from their phone which needed to be kept in mind through-out development.
           </p>
+          <div className="egeplast-button">
+							<a rel="noreferrer" target="_blank" href="https://egeplast.ie/">Live Site</a>
+          </div>
         </div>
       </div>
     </div>

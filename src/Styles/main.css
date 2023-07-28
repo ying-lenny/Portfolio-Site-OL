@@ -348,6 +348,20 @@ figure {
   max-width: 35%;
   background-color: white;
   padding: 1em;
-  font-size: 1.5em;
+  font-size: 1.25em;
   border-radius: 1em;
+}
+.egeplast-page-body .egeplast-description p {
+  text-align: left;
+}
+.egeplast-page-body .egeplast-description .egeplast-button {
+  background-color: #6a2f2f;
+  padding: 1em;
+  border-radius: 1em;
+  border: solid 0.2em black;
+}
+.egeplast-page-body .egeplast-description .egeplast-button a {
+  display: inline-block;
+  color: white;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
