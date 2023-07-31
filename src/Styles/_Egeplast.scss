@@ -29,14 +29,19 @@
       text-align: left;
     }
     & .egeplast-button {
-      background-color: #6a2f2f;
-      padding: 1em;
-      border-radius: 1em;
-      border: solid 0.2em black;
+      display: flex;
       & a {
-        display: inline-block;
         color: white;
         width: 100%;
+        transition: 0.3s;
+        padding: 1em;
+        background-color: #6a2f2f;
+        border-radius: 1em;
+        border: solid 0.2em black;
+      }
+      & :hover {
+        background-color: white;
+        color: black;
       }
     }
   }

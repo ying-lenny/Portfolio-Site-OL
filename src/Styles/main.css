@@ -355,13 +355,18 @@ figure {
   text-align: left;
 }
 .egeplast-page-body .egeplast-description .egeplast-button {
-  background-color: #6a2f2f;
+  display: flex;
+}
+.egeplast-page-body .egeplast-description .egeplast-button a {
+  color: white;
+  width: 100%;
+  transition: 0.3s;
   padding: 1em;
+  background-color: #6a2f2f;
   border-radius: 1em;
   border: solid 0.2em black;
 }
-.egeplast-page-body .egeplast-description .egeplast-button a {
-  display: inline-block;
-  color: white;
-  width: 100%;
+.egeplast-page-body .egeplast-description .egeplast-button :hover {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
