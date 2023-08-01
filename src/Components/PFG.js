@@ -3,12 +3,35 @@ import { CarouselPortFoliGo } from "./Carousels";
 
 export default function PFG() {
   return (
-    <div>
-      <h1>PortFoliGo</h1>
-      <CarouselPortFoliGo/>
-      <p>
-        PortfoliGo was my final year project during my time at college
-      </p>
+<div className="egeplast-page">
+      <h1 className="egeplast-header">PortFoliGo</h1>
+      <div className="egeplast-page-body">
+        <div className="egeplast-image-gallery">
+          <CarouselPortFoliGo/>
+        </div>
+        <div className="egeplast-description">
+          <h3>
+            Designing and developing a web application
+          </h3>
+          <p>
+            Employee of the Month is an atmospheric, retro-inspired, survival horror game 
+            set during your first late night shift at the abstract supermarket chain "The Month"
+            where every employee is an employee of the month.
+          </p>
+          <p>
+            My involvement with the game was creating graphics used for the various endings that exist,
+            dictacting the overall UI of the game, fonts, etc, along with 3D modelling for creating 
+            some background assets that fit the retro aesthetic of the game
+          </p>
+          <p>
+            The game has been offically published on several platforms including itch.io and steam
+            and is currently available for purchase by following the link below
+          </p>
+          <div className="egeplast-button">
+							<a rel="noreferrer" target="_blank" href="https://store.steampowered.com/app/1957230/Employee_of_The_Month/">Live Site</a>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

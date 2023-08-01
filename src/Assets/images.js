@@ -23,7 +23,12 @@ let images = {
     ],
     PortFoliGo: [
       require('./BigProjects/PortFoliGo/PortFoliGoCard.png'),
-      require('./BigProjects/Egeplast/EgeplastPipe.png'),
+      require('./BigProjects/PortFoliGo/CreatedPostFromPosterAccount.png'),
+      require('./BigProjects/PortFoliGo/LoginPageWIP.png'),
+      require('./BigProjects/PortFoliGo/Homepage.png'),
+      require('./BigProjects/PortFoliGo/PostCreationSignedIn.png'),
+      require('./BigProjects/PortFoliGo/PostSchemaAndModel.png'),
+      require('./BigProjects/PortFoliGo/CreatedPostWithLikesFromAnotherAccount.png'),
     ],
   }
 }
