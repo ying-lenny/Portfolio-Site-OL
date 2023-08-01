@@ -228,6 +228,7 @@ figure {
 
 .project-card-image {
   width: 50%;
+  padding-right: 1em;
 }
 .project-card-image img {
   border: 0.5em white solid;
@@ -237,7 +238,7 @@ figure {
 .project-card-description {
   background-color: #ffffff;
   display: flex;
-  width: 50%;
+  min-width: 50%;
   border-radius: 1em;
   padding: 0.5em;
   height: 100%;

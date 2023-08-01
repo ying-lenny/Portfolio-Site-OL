@@ -14,20 +14,18 @@ export default function EOTM() {
             Designing UI, Graphic Design, and 3D Modelling
           </h3>
           <p>
-            During my work placement at college, I was working with Egeplast Ireland Ltd, 
-            a local supplier of welding equipment and training, to create a new website to 
-            replace their outdated one which was not designed with mobile views in mind.
+            Employee of the Month is an atmospheric, retro-inspired, survival horror game 
+            set during your first late night shift at the abstract supermarket chain "The Month"
+            where every employee is an employee of the month.
           </p>
           <p>
-            The website was created using Wordpress and Elementor, with a combination 
-            of CSS and HTML over the span of my 3 month work placement,
-            taking input and feedback about the layout and presentation of necesary 
-            information to the site like certificates and pipe fitting dimensions.
+            My involvement with the game was creating graphics used for the various endings that exist,
+            dictacting the overall UI of the game, fonts, etc, along with 3D modelling for creating 
+            some background assets that fit the retro aesthetic of the game
           </p>
           <p>
-            The site from the perspective of phone screen was also an important consideration
-            as typically the type of person to use the site could be either on-site somewhere
-            from their phone which needed to be kept in mind through-out development.
+            The game has been offically published on several platforms including itch.io and steam
+            and is currently available for purchase by following the link below
           </p>
           <div className="egeplast-button">
 							<a rel="noreferrer" target="_blank" href="https://store.steampowered.com/app/1957230/Employee_of_The_Month/">Live Site</a>

@@ -17,7 +17,7 @@ export default function Header() {
 							<Link to='/personal/0'>Page 2</Link>
 						</li>
 						<li>
-							<Link to='/Egeplast-Ireland'>Page 3</Link>
+							<Link to='/Employee-of-The-Month'>Page 3</Link>
 						</li>
 					</ul>
 				</div>
