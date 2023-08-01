@@ -1,13 +1,14 @@
 import React from "react";
-import CarouselTest from "./Carousel";
+import { CarouselEgeplast } from "./Carousels";
 
 export default function Egeplast() {
+
   return (
     <div className="egeplast-page">
       <h1 className="egeplast-header">Egeplast Ireland Website redesign</h1>
       <div className="egeplast-page-body">
         <div className="egeplast-image-gallery">
-          <CarouselTest/>
+          <CarouselEgeplast/>
         </div>
         <div className="egeplast-description">
           <h3>

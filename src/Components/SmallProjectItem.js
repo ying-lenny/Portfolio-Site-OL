@@ -19,10 +19,10 @@ function SmallProjectItem( props ) {
 						<h2>{description}</h2>
 						<div className="project-card-buttons">
 							<div className="project-card-links">
-							<a href={links[0]}>Repository</a>
-							<a href={links[1]}>Live site</a> 
-						</div>
-						<div className="return-button">
+								<a href={links[0]}>Repository</a>
+								<a href={links[1]}>Live site</a> 
+							</div>
+							<div className="return-button">
 							<Link  to='/'>View Projects</Link>
 						</div>
 						</div>

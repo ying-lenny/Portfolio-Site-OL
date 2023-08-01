@@ -18,9 +18,12 @@ let images = {
     ],
     EOTM: [
       require('./BigProjects/EOTM/EOTMCard.png'),
+      require('./BigProjects/EOTM/EOTMthumbnailLoop.gif'),
+      require('./BigProjects/EOTM/EOTMBathroom.jpg'),
     ],
     PortFoliGo: [
       require('./BigProjects/PortFoliGo/PortFoliGoCard.png'),
+      require('./BigProjects/Egeplast/EgeplastPipe.png'),
     ],
   }
 }

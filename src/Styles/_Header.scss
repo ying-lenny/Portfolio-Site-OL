@@ -4,8 +4,9 @@
     z-index: 99;
     top: 0;
     height: 3em;
-    background-color: #6a2f2f;
+    background-color: $text;
     padding: 1em;
+    margin-bottom: 1em;
   }
 
   .header-links {
@@ -18,7 +19,7 @@
     padding: 0 3em;
     width: 70%;
     margin: auto;
-    color: rgb(244, 244, 244);
+    color: #f4f4f4;
   }
 
   .header-left a {
