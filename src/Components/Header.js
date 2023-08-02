@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NightmodeToggle from "./NightModeToggle";
 
 export default function Header() {
 	return (
@@ -7,6 +8,7 @@ export default function Header() {
 			<nav className="header-links">
 				<div className="header-left">
 					<Link to='/' >Owen Lenihan</Link>
+					<NightmodeToggle/>
 				</div>
 				<div className="header-right">
 					<ul>

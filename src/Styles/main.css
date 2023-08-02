@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap");
 .App {
-  margin: 0%;
+  margin: 0;
 }
 
 body {
@@ -12,9 +12,6 @@ body {
 .section-heading {
   font-weight: 900;
   text-transform: uppercase;
-  background-color: #2e65ad;
-  color: white;
-  -webkit-text-stroke: 1px black;
   border: 8px solid black;
   padding: 0.5em;
   font-size: 2em;
@@ -27,7 +24,6 @@ body {
   flex-direction: column;
   margin: auto;
   text-align: left;
-  background-color: white;
   padding: 0 5em;
   border-radius: 1em;
 }
@@ -44,6 +40,16 @@ body {
   text-align: center;
   width: 70%;
   margin: auto;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  bottom: 0;
+  width: 70%;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
 }
 
 .header {
@@ -208,12 +214,9 @@ figure {
 .project-card-title {
   font-weight: 900;
   text-transform: uppercase;
-  background-color: #2e65ad;
   padding: 1em;
   border-radius: 1em 0;
   margin: 0;
-  color: white;
-  -webkit-text-stroke: 1px black;
   border: 8px solid black;
 }
 
@@ -236,7 +239,6 @@ figure {
 }
 
 .project-card-description {
-  background-color: #ffffff;
   display: flex;
   min-width: 50%;
   border-radius: 1em;
@@ -266,7 +268,7 @@ figure {
 }
 .project-card-description .inner-description .project-card-links a {
   width: 50%;
-  background-color: #646668;
+  background-color: #7d09f1;
   padding: 1em;
   color: white;
   text-align: center;
@@ -339,14 +341,10 @@ figure {
 }
 
 .egeplast-header {
-  background-color: white;
   padding: 1em;
   border-radius: 1em;
-  background-color: #2e65ad;
-  color: white;
   font-weight: 900;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px black;
   margin: 0;
   border-radius: 1em 0;
   border: 8px solid black;
@@ -386,11 +384,40 @@ figure {
   width: 100%;
   transition: 0.3s;
   padding: 1em;
-  background-color: #646668;
+  background-color: #7d09f1;
   border-radius: 1em;
   border: solid 0.2em black;
 }
 .egeplast-page-body .egeplast-description .egeplast-button :hover {
   background-color: white;
   color: black;
+}
+
+.light .App, .light .about-text, .light .project-grid-header, .light .project-card-description, .light .egeplast-description {
+  background-color: #ffffff;
+  color: #0f0d0d;
+}
+.light .section-heading {
+  background-color: #d4c4e3;
+}
+.light .footer {
+  color: #0f0d0d;
+}
+.light .project-card-title, .light .egeplast-header {
+  background-color: #d4c4e3;
+}
+
+.dark .App, .dark .about-text, .dark .project-grid-header, .dark .project-card-description, .dark .egeplast-description {
+  background-color: #1c1616;
+  color: #ffffff;
+}
+.dark .section-heading {
+  background-color: #1e152c;
+}
+.dark .project-card-title, .dark .egeplast-header {
+  background-color: #1e152c;
+  color: #ffffff;
+}
+.dark .footer, .dark .return-button a {
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

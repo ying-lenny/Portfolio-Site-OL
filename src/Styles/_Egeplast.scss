@@ -1,12 +1,8 @@
 .egeplast-header {
-  background-color: white;
   padding: 1em;
   border-radius: 1em;
-  background-color: $accent;
-  color: white;
   font-weight: 900;
 	text-transform: uppercase;
-  -webkit-text-stroke: 1px black;
   margin: 0;
   border-radius: 1em 0;
   border: 8px solid black;
@@ -43,7 +39,7 @@
         width: 100%;
         transition: 0.3s;
         padding: 1em;
-        background-color: $secondary;
+        background-color: $accent;
         border-radius: 1em;
         border: solid 0.2em black;
       }

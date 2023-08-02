@@ -28,7 +28,7 @@ export default function EOTM() {
             and is currently available for purchase by following the link below
           </p>
           <div className="egeplast-button">
-							<a rel="noreferrer" target="_blank" href="https://store.steampowered.com/app/1957230/Employee_of_The_Month/">Live Site</a>
+							<a rel="noreferrer" target="_blank" href="https://store.steampowered.com/app/1957230/Employee_of_The_Month/">Buy on steam</a>
           </div>
         </div>
       </div>

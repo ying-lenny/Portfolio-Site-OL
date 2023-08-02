@@ -1,0 +1,38 @@
+.light {
+  .App, .about-text, .project-grid-header, .project-card-description, .egeplast-description {
+    background-color: $background;
+    color: $text;
+  }
+
+  .section-heading{
+    background-color: $secondary;
+  }
+
+  .footer {
+    color: $text;
+  }
+
+  .project-card-title, .egeplast-header {
+    background-color: $secondary;
+  }
+}
+
+.dark {
+  .App, .about-text, .project-grid-header, .project-card-description, .egeplast-description {
+    background-color: $dark-background;
+    color: $dark-text;
+  }
+
+  .section-heading {
+    background-color: $dark-secondary;
+  }
+
+  .project-card-title, .egeplast-header {
+    background-color: $dark-secondary;
+    color: $dark-text;
+  }
+
+  .footer, .return-button a{
+    color: $dark-text;
+  }
+}
