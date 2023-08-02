@@ -15,6 +15,10 @@
   .project-card-title, .egeplast-header {
     background-color: $secondary;
   }
+
+  .return-button {
+    background-color: $secondary;
+  }
 }
 
 .dark {
@@ -32,7 +36,11 @@
     color: $dark-text;
   }
 
-  .footer, .return-button a{
+  .footer {
     color: $dark-text;
+  }
+
+  .return-button {
+    background-color: $dark-secondary;
   }
 }

@@ -16,10 +16,13 @@ export default function Header() {
 							<Link to='/'>Work</Link>
 						</li>
 						<li>
-							<Link to='/personal/0'>Page 2</Link>
+							<Link to='/PortFoliGo'>PFG</Link>
 						</li>
 						<li>
-							<Link to='/Employee-of-The-Month'>Page 3</Link>
+							<Link to='/Employee-of-The-Month'>EOTM</Link>
+						</li>
+						<li>
+							<Link to='/Egeplast-Ireland'>EGE</Link>
 						</li>
 					</ul>
 				</div>

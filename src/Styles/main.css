@@ -373,24 +373,37 @@ figure {
   font-size: 1.25em;
   border-radius: 1em;
 }
+.egeplast-page-body .egeplast-description .egeplast-inner-description {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
 .egeplast-page-body .egeplast-description p {
   text-align: left;
 }
 .egeplast-page-body .egeplast-description .egeplast-button {
-  display: flex;
-}
-.egeplast-page-body .egeplast-description .egeplast-button a {
+  display: block;
   color: white;
+  padding: 1em 0;
   width: 100%;
   transition: 0.3s;
-  padding: 1em;
   background-color: #7d09f1;
   border-radius: 1em;
   border: solid 0.2em black;
 }
-.egeplast-page-body .egeplast-description .egeplast-button :hover {
+.egeplast-page-body .egeplast-description .egeplast-button:hover {
   background-color: white;
   color: black;
+}
+.egeplast-page-body .egeplast-description .return-button {
+  border: 0.1em solid black;
+  padding: 0.5em;
+  margin: auto;
+  text-align: left;
+}
+.egeplast-page-body .egeplast-description .return-button a {
+  text-decoration: none;
+  color: #7d09f1;
 }
 
 .light .App, .light .about-text, .light .project-grid-header, .light .project-card-description, .light .egeplast-description {
@@ -406,6 +419,9 @@ figure {
 .light .project-card-title, .light .egeplast-header {
   background-color: #d4c4e3;
 }
+.light .return-button {
+  background-color: #d4c4e3;
+}
 
 .dark .App, .dark .about-text, .dark .project-grid-header, .dark .project-card-description, .dark .egeplast-description {
   background-color: #1c1616;
@@ -418,6 +434,9 @@ figure {
   background-color: #1e152c;
   color: #ffffff;
 }
-.dark .footer, .dark .return-button a {
+.dark .footer {
   color: #ffffff;
+}
+.dark .return-button {
+  background-color: #1e152c;
 }/*# sourceMappingURL=main.css.map */

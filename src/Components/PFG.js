@@ -1,9 +1,10 @@
 import React from "react";
 import { CarouselPortFoliGo } from "./Carousels";
+import BigProjectButtons from "./BigProjectButtons";
 
 export default function PFG() {
   return (
-<div className="egeplast-page">
+    <div className="egeplast-page">
       <h1 className="egeplast-header">PortFoliGo</h1>
       <div className="egeplast-page-body">
         <div className="egeplast-image-gallery">
@@ -14,22 +15,23 @@ export default function PFG() {
             Designing and developing a web application
           </h3>
           <p>
-            Employee of the Month is an atmospheric, retro-inspired, survival horror game 
-            set during your first late night shift at the abstract supermarket chain "The Month"
-            where every employee is an employee of the month.
+            PortFoliGo was my college final year project in which I created a fullstack web application using JavaScript.
+            It was created using the MERN stack, meaning it uses React for the frontend, and Express.js, Node.js, and MongoDB
+            for the backend.
           </p>
           <p>
-            My involvement with the game was creating graphics used for the various endings that exist,
-            dictacting the overall UI of the game, fonts, etc, along with 3D modelling for creating 
-            some background assets that fit the retro aesthetic of the game
+            PortFoliGo was created to be the one-stop solution for artists of most persuasions to quickly create an online portfolio
+            instead of going through the hassle of either trying to create their own site, or rely on social media platforms
+            that were not designed to be used by artists in a professional matter.
           </p>
           <p>
-            The game has been offically published on several platforms including itch.io and steam
-            and is currently available for purchase by following the link below
+            Due to time restriction and issues during the development process, PortFoliGo was successfully deployed
+            but you can still access the Github repo to see the frontend and server files.
           </p>
-          <div className="egeplast-button">
-							<a rel="noreferrer" target="_blank" href="https://store.steampowered.com/app/1957230/Employee_of_The_Month/">Live Site</a>
-          </div>
+          <BigProjectButtons
+            link = "https://github.com/ying-lenny/FYPRepo"
+            text ='Github Repo'
+          />
         </div>
       </div>
     </div>

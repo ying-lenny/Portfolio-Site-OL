@@ -1,5 +1,6 @@
 import React from "react";
 import { CarouselEOTM } from "./Carousels";
+import BigProjectButtons from "./BigProjectButtons";
 
 export default function EOTM() {
   return (
@@ -27,9 +28,10 @@ export default function EOTM() {
             The game has been offically published on several platforms including itch.io and steam
             and is currently available for purchase by following the link below
           </p>
-          <div className="egeplast-button">
-							<a rel="noreferrer" target="_blank" href="https://store.steampowered.com/app/1957230/Employee_of_The_Month/">Buy on steam</a>
-          </div>
+          <BigProjectButtons
+            link = "https://store.steampowered.com/app/1957230/Employee_of_The_Month/"
+            text ='Buy on steam'
+          />
         </div>
       </div>
     </div>

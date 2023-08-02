@@ -29,23 +29,36 @@
     padding: 1em;
     font-size: 1.25em;
     border-radius: 1em;
+    .egeplast-inner-description {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
     & p {
       text-align: left;
     }
-    & .egeplast-button {
-      display: flex;
-      & a {
-        color: white;
-        width: 100%;
-        transition: 0.3s;
-        padding: 1em;
-        background-color: $accent;
-        border-radius: 1em;
-        border: solid 0.2em black;
-      }
-      & :hover {
+    .egeplast-button {
+      display: block;
+      color: white;
+      padding: 1em 0;
+      width: 100%;
+      transition: 0.3s;
+      background-color: $accent;
+      border-radius: 1em;
+      border: solid 0.2em black;
+      &:hover {
         background-color: white;
         color: black;
+      }
+    }
+    .return-button {
+      border: 0.1em solid black;
+      padding: 0.5em;
+      margin: auto;
+      text-align: left;
+      & a {
+        text-decoration: none;
+        color: $accent;
       }
     }
   }
