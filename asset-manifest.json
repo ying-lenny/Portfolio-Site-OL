@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Site-OL%20/static/css/main.652a0a81.css",
+    "main.js": "/Portfolio-Site-OL%20/static/js/main.d4f39ac3.js",
+    "static/media/EOTMthumbnailLoop.gif": "/Portfolio-Site-OL%20/static/media/EOTMthumbnailLoop.f01c43511e536d866d9f.gif",
+    "static/media/EgeplastHome.png": "/Portfolio-Site-OL%20/static/media/EgeplastHome.8d3efb73e7e7d152ec6e.png",
+    "static/media/Homepage.png": "/Portfolio-Site-OL%20/static/media/Homepage.3a9706683d52b1dc4448.png",
+    "static/media/EgeplastMenu.png": "/Portfolio-Site-OL%20/static/media/EgeplastMenu.6b644cf30a26e5ffeb85.png",
+    "static/media/EgeplastCerts.png": "/Portfolio-Site-OL%20/static/media/EgeplastCerts.0fabd6cbbbee33620f5d.png",
+    "static/media/EOTMBathroom.jpg": "/Portfolio-Site-OL%20/static/media/EOTMBathroom.8b609b9f20f618a46e89.jpg",
+    "static/media/PortFoliGoCard.png": "/Portfolio-Site-OL%20/static/media/PortFoliGoCard.ccb4e84bed74aca65590.png",
+    "static/media/EgeplastCard.png": "/Portfolio-Site-OL%20/static/media/EgeplastCard.98f751897c5b2b1a65b8.png",
+    "static/media/PortFoligoCardContext.png": "/Portfolio-Site-OL%20/static/media/PortFoligoCardContext.0bfbd0bcd4e58039667f.png",
+    "static/media/EOTMCard.png": "/Portfolio-Site-OL%20/static/media/EOTMCard.2d5e066e2d9140b9e7e6.png",
+    "static/media/EgeplastPipe.png": "/Portfolio-Site-OL%20/static/media/EgeplastPipe.0777b0daafe348653b0b.png",
+    "static/media/PostSchemaAndModel.png": "/Portfolio-Site-OL%20/static/media/PostSchemaAndModel.70a9909fb74b8ce7e2d9.png",
+    "static/media/PortFoliGoForms.png": "/Portfolio-Site-OL%20/static/media/PortFoliGoForms.8b1745bc95e60f7d3a09.png",
+    "static/media/LinkedIn.png": "/Portfolio-Site-OL%20/static/media/LinkedIn.cd71fb396f73fb1f27d4.png",
+    "static/media/Github.png": "/Portfolio-Site-OL%20/static/media/Github.754bdfc91503a0a7acc1.png",
+    "static/media/Twitter.png": "/Portfolio-Site-OL%20/static/media/Twitter.f76fcfc07dfed6c6a386.png",
+    "static/media/CalculatorFull.png": "/Portfolio-Site-OL%20/static/media/CalculatorFull.15e4cd98be4225938458.png",
+    "index.html": "/Portfolio-Site-OL%20/index.html",
+    "main.652a0a81.css.map": "/Portfolio-Site-OL%20/static/css/main.652a0a81.css.map",
+    "main.d4f39ac3.js.map": "/Portfolio-Site-OL%20/static/js/main.d4f39ac3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.652a0a81.css",
+    "static/js/main.d4f39ac3.js"
+  ]
+}
