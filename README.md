@@ -1,4 +1,4 @@
-Live Site available at: https://ying-lenny.github.io/
+Live Site available at: https://ying-lenny.github.io/Portfolio-Site-OL/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -14,16 +14,16 @@ export default function Header() {
 					<div className="header-desktop">
 						<ul>
 							<li>
-								<Link to='/Portfolio-Site-OL/'>Work</Link>
+								<Link to='/'>Work</Link>
 							</li>
 							<li>
-								<Link to='/Portfolio-Site-OL/PortFoliGo'>PFG</Link>
+								<Link to='/PortFoliGo'>PFG</Link>
 							</li>
 							<li>
-								<Link to='/Portfolio-Site-OL/Employee-of-The-Month'>EOTM</Link>
+								<Link to='/Employee-of-The-Month'>EOTM</Link>
 							</li>
 							<li>
-								<Link to='/Portfolio-Site-OL/Egeplast-Ireland'>EGE</Link>
+								<Link to='/Egeplast-Ireland'>EGE</Link>
 							</li>
 						</ul>
 					</div>
@@ -33,16 +33,16 @@ export default function Header() {
 								<p>[&#8801;]</p>
 							<ul class="dropdown">
 								<li>
-									<Link to='/Portfolio-Site-OL/'>Work</Link>
+									<Link to='/'>Work</Link>
 								</li>
 								<li>
-									<Link to='/Portfolio-Site-OL/PortFoliGo'>PFG</Link>
+									<Link to='/PortFoliGo'>PFG</Link>
 								</li>
 								<li>
-									<Link to='/Portfolio-Site-OL/Employee-of-The-Month'>EOTM</Link>
+									<Link to='/Employee-of-The-Month'>EOTM</Link>
 								</li>
 								<li>
-									<Link to='/Portfolio-Site-OL/Egeplast-Ireland'>EGE</Link>
+									<Link to='/Egeplast-Ireland'>EGE</Link>
 								</li>
 							</ul>
 							</li>
