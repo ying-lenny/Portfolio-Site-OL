@@ -11,20 +11,43 @@ export default function Header() {
 					<NightmodeToggle/>
 				</div>
 				<div className="header-right">
-					<ul>
-						<li>
-							<Link to='/'>Work</Link>
-						</li>
-						<li>
-							<Link to='/PortFoliGo'>PFG</Link>
-						</li>
-						<li>
-							<Link to='/Employee-of-The-Month'>EOTM</Link>
-						</li>
-						<li>
-							<Link to='/Egeplast-Ireland'>EGE</Link>
-						</li>
-					</ul>
+					<div className="header-desktop">
+						<ul>
+							<li>
+								<Link to='/'>Work</Link>
+							</li>
+							<li>
+								<Link to='/PortFoliGo'>PFG</Link>
+							</li>
+							<li>
+								<Link to='/Employee-of-The-Month'>EOTM</Link>
+							</li>
+							<li>
+								<Link to='/Egeplast-Ireland'>EGE</Link>
+							</li>
+						</ul>
+					</div>
+					<div className="header-mobile">
+						<ul className="menu-ul">
+							<li className="menu">
+								<p>[&#8801;]</p>
+							<ul class="dropdown">
+								<li>
+									<Link to='/'>Work</Link>
+								</li>
+								<li>
+									<Link to='/PortFoliGo'>PFG</Link>
+								</li>
+								<li>
+									<Link to='/Employee-of-The-Month'>EOTM</Link>
+								</li>
+								<li>
+									<Link to='/Egeplast-Ireland'>EGE</Link>
+								</li>
+							</ul>
+							</li>
+						</ul>	
+					</div>
 				</div>
 			</nav>
 		</header>

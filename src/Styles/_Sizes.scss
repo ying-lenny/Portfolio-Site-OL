@@ -1,0 +1,174 @@
+//! Max Width 400px
+@media screen and (max-width: 400px) {
+  //* Project Card
+	img {
+		max-width: 80vw;
+	}
+
+	.project-card-body {
+		flex-direction: column;
+	}
+
+  .project-card-description {
+    width: 80vw;
+  }
+
+  //* App
+  .body {
+		width: 100%;
+	}
+
+  .header {
+    min-height: 15vh;
+  }
+
+  .header-left {
+    padding: 1em;
+  }
+
+  .header-mobile {
+    height: 15vh;
+    .menu-ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+      height: 15vh;
+    }
+
+    .menu {
+      height: 15vh;
+      p {
+        margin: 0;
+        height: 15vh;
+        width: 20vw;
+        padding: 0 0.5em;
+        text-align: center;
+        line-height: 15vh;
+      }
+    }
+    
+    .dropdown {
+      margin: 0;
+
+      li{
+        width: 20vw;
+        padding: 0.5em;
+        text-align: center;
+      }
+    }
+
+    li {
+      color: #fff;
+      display: block;
+      float: right;
+      position: relative;
+      text-decoration: none;
+      transition-duration: 0.25s;
+    }
+      
+    li a {
+      color: #fff;
+    }
+    
+    li:hover,
+    li:focus-within {
+      cursor: pointer;
+    }
+    
+    li:focus-within a {
+      outline: none;
+    }
+    
+    ul li ul {
+      visibility: hidden;
+      opacity: 0;
+      padding: 0;
+      position: absolute;
+      transition: all 0.5s ease;
+      margin-top: 1rem;
+      right: 0;
+      display: none;
+    }
+    
+    ul li:hover > ul,
+    ul li:focus-within > ul,
+    ul li ul:hover,
+    ul li ul:focus {
+       visibility: visible;
+       opacity: 1;
+       display: block;
+    }
+    
+    ul li ul li {
+      clear: both;
+      width: 80%;
+    }
+  }
+
+  .header-desktop {
+    display: none;
+  }
+}
+
+//! Everything in between
+@media (min-width:401px) and (max-width:899px) {
+  .project-card-container {
+		background-color: red;
+	}
+
+  .project-card-image {
+    width: 50%;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+}
+
+//! Min width 900px
+@media screen and (min-width: 900px) {
+  //* Project Card
+  .project-card-container {
+		padding: 2em;
+	}
+
+	.project-card-body {
+		flex-direction: row;
+	}
+
+  .project-card-image {
+    width: 50%;
+    padding-right: 1em;
+  }
+
+  .project-card-description {
+    min-width: 50%;
+  }
+
+  //* App
+  .body, .header-links {
+		width: 70%;
+    padding: 0 3em;
+	}
+
+  .header {
+    padding: 1em;
+  }
+
+  .header-mobile {
+    display: none;
+  }
+
+  .header-right {
+    & li a {
+      transition: 0.25s;
+      &:hover {
+        letter-spacing: 0.1em;
+      }
+    }
+    & li:not(:first-child) a {
+      padding-left: 1em;
+    }
+  }
+}
+

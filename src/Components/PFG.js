@@ -4,13 +4,13 @@ import BigProjectButtons from "./BigProjectButtons";
 
 export default function PFG() {
   return (
-    <div className="egeplast-page">
-      <h1 className="egeplast-header">PortFoliGo</h1>
-      <div className="egeplast-page-body">
-        <div className="egeplast-image-gallery">
+    <div className="big-project-page">
+      <h1 className="big-project-header">PortFoliGo</h1>
+      <div className="big-project-page-body">
+        <div className="big-project-image-gallery">
           <CarouselPortFoliGo/>
         </div>
-        <div className="egeplast-description">
+        <div className="big-project-description">
           <h3>
             Designing and developing a web application
           </h3>

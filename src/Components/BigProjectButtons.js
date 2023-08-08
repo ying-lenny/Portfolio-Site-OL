@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function BigProjectButtons(props) {
   return (
-    <div className="egeplast-buttons">
+    <div className="big-project-buttons">
       <a 
-        className="egeplast-button" 
+        className="big-project-button" 
         rel="noreferrer" 
         target="_blank" 
         href={props.link}

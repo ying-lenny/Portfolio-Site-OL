@@ -1,4 +1,4 @@
-.egeplast-header {
+.big-project-header {
   padding: 1em;
   border-radius: 1em;
   font-weight: 900;
@@ -8,12 +8,12 @@
   border: 8px solid black;
 }
 
-.egeplast-page-body {
+.big-project-page-body {
   display: flex;
   background-color: $primary;
   padding: 2em;
   border-radius: 0 1em;
-  .egeplast-image-gallery {
+  .big-project-image-gallery {
     max-width:60%;
     margin: 1em;
     .carousel-slider {
@@ -23,13 +23,13 @@
       width: 100%;
     }
   }
-  .egeplast-description {
+  .big-project-description {
     max-width: 35%;
     background-color: white;
     padding: 1em;
     font-size: 1.25em;
     border-radius: 1em;
-    .egeplast-inner-description {
+    .big-project-inner-description {
       display: flex;
       flex-direction: column;
       margin: auto;
@@ -37,7 +37,7 @@
     & p {
       text-align: left;
     }
-    .egeplast-button {
+    .big-project-button {
       display: block;
       color: white;
       padding: 1em 0;

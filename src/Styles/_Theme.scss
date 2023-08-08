@@ -1,5 +1,5 @@
 .light {
-  .App, .about-text, .project-grid-header, .project-card-description, .egeplast-description {
+  .App, .about-text, .project-grid-header, .project-card-description, .big-project-description {
     background-color: $background;
     color: $text;
   }
@@ -12,17 +12,30 @@
     color: $text;
   }
 
-  .project-card-title, .egeplast-header {
+  .project-card-title, .big-project-header {
     background-color: $secondary;
   }
 
   .return-button {
     background-color: $secondary;
   }
+
+  .dropdown {
+    li {
+      background-color: $background;
+      a {
+        color: $text;
+      }
+    }
+    li:hover,
+    li:focus-within {
+      background: $secondary;
+    }
+  }
 }
 
 .dark {
-  .App, .about-text, .project-grid-header, .project-card-description, .egeplast-description {
+  .App, .about-text, .project-grid-header, .project-card-description, .big-project-description {
     background-color: $dark-background;
     color: $dark-text;
   }
@@ -31,7 +44,7 @@
     background-color: $dark-secondary;
   }
 
-  .project-card-title, .egeplast-header {
+  .project-card-title, .big-project-header {
     background-color: $dark-secondary;
     color: $dark-text;
   }
@@ -42,5 +55,15 @@
 
   .return-button {
     background-color: $dark-secondary;
+  }
+
+  .dropdown {
+    li {
+      background-color: $dark-background;
+    }
+    li:hover,
+    li:focus-within {
+      background: $dark-secondary;
+    }
   }
 }
