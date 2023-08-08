@@ -7,23 +7,14 @@ export default function Header() {
 		<header className="header">
 			<nav className="header-links">
 				<div className="header-left">
-					<Link to='/' >Owen Lenihan</Link>
+					<Link to='/Portfolio-Site-OL/' >Owen Lenihan</Link>
 					<NightmodeToggle/>
 				</div>
 				<div className="header-right">
 					<div className="header-desktop">
 						<ul>
 							<li>
-								<Link to='/'>Work</Link>
-							</li>
-							<li>
-								<Link to='/PortFoliGo'>PFG</Link>
-							</li>
-							<li>
-								<Link to='/Employee-of-The-Month'>EOTM</Link>
-							</li>
-							<li>
-								<Link to='/Egeplast-Ireland'>EGE</Link>
+								<Link to='/Portfolio-Site-OL/'>Home</Link>
 							</li>
 						</ul>
 					</div>
@@ -33,16 +24,7 @@ export default function Header() {
 								<p>[&#8801;]</p>
 							<ul class="dropdown">
 								<li>
-									<Link to='/Portfolio-Site-OL/'>Work</Link>
-								</li>
-								<li>
-									<Link to='/PortFoliGo'>PFG</Link>
-								</li>
-								<li>
-									<Link to='/Employee-of-The-Month'>EOTM</Link>
-								</li>
-								<li>
-									<Link to='/Egeplast-Ireland'>EGE</Link>
+									<Link to='/Portfolio-Site-OL/'>Home</Link>
 								</li>
 							</ul>
 							</li>
