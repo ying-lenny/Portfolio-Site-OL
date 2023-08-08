@@ -33,7 +33,7 @@ export default function Header() {
 								<p>[&#8801;]</p>
 							<ul class="dropdown">
 								<li>
-									<Link to='/'>Work</Link>
+									<Link to='/Portfolio-Site-OL/'>Work</Link>
 								</li>
 								<li>
 									<Link to='/PortFoliGo'>PFG</Link>

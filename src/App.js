@@ -18,7 +18,7 @@ function App() {
 				<Header/>
 				<div className='body'>
 					<Routes>
-						<Route exact path='/' element={<Homepage/>}/>
+						<Route exact path='/Portfolio-Site-OL/' element={<Homepage/>}/>
 						<Route exact path='/page2' element={<ProjectPage/>}/>
 						<Route exact path='/page3' element={<ContactPage/>}/>
 						<Route exact path='/PortFoliGo' element={<PFG/>}/>
