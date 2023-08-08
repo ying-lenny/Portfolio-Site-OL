@@ -8,7 +8,6 @@
 /* Website specific */
 
 .project-grid-header {
-	background-color: white;
 	padding: 1em;
 	border-radius: 1em;
 }
@@ -33,7 +32,6 @@
 }
 
 .big-project {
-	width: calc((100% / 2) - 20px);
 	margin: 0.5em;
 	& img {
 		width: 100%;
@@ -43,7 +41,6 @@
 /* Personal Project Specific */
 
 .project {
-	width: calc((100% / 4) - 0.5em);
 	margin: 0.5em 0.1em;
 	& img {
 		width: 100%;

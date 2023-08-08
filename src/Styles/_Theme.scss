@@ -35,12 +35,12 @@
 }
 
 .dark {
-  .App, .about-text, .project-grid-header, .project-card-description, .big-project-description {
+  .App, .about-text, .project-card-description, .big-project-description {
     background-color: $dark-background;
     color: $dark-text;
   }
 
-  .section-heading {
+  .section-heading, .project-grid-header {
     background-color: $dark-secondary;
   }
 

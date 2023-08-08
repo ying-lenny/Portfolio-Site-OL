@@ -108,6 +108,14 @@
   .header-desktop {
     display: none;
   }
+
+  .about-text {
+    padding: 0 0.5em;
+  }
+  
+  .big-project-page-body {
+    flex-direction: column;
+  }
 }
 
 //! Everything in between
@@ -169,6 +177,27 @@
     & li:not(:first-child) a {
       padding-left: 1em;
     }
+  }
+
+  .about-text {
+    width: 70%;
+    padding: 0 5em;
+  }
+
+  .big-project {
+    width: calc((100% / 2) - 20px);
+  }
+
+  .project {
+    width: calc((100% / 4) - 0.5em);
+  }
+
+  .big-project-image-gallery {
+    max-width:60%;
+    margin: 1em;
+  }
+  .big-project-description {
+    max-width: 35%;
   }
 }
 

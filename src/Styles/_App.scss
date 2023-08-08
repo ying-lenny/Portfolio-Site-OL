@@ -13,7 +13,6 @@ body {
 .section-heading {
 	font-weight: 900;
 	text-transform: uppercase;
-	
 	border: 8px solid black;
 	padding: 0.5em;
 	font-size: 2em;
@@ -21,12 +20,10 @@ body {
 }
 
 .about-text {
-	width: 70%;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
 	text-align: left;
-	padding: 0 5em;
 	border-radius: 1em;
 }
 
