@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Site-OL/static/css/main.652a0a81.css",
+    "main.css": "/Portfolio-Site-OL/static/css/main.d523155c.css",
     "main.js": "/Portfolio-Site-OL/static/js/main.185e2ee1.js",
     "static/media/EOTMthumbnailLoop.gif": "/Portfolio-Site-OL/static/media/EOTMthumbnailLoop.f01c43511e536d866d9f.gif",
     "static/media/EgeplastHome.png": "/Portfolio-Site-OL/static/media/EgeplastHome.8d3efb73e7e7d152ec6e.png",
@@ -20,11 +20,11 @@
     "static/media/Twitter.png": "/Portfolio-Site-OL/static/media/Twitter.f76fcfc07dfed6c6a386.png",
     "static/media/CalculatorFull.png": "/Portfolio-Site-OL/static/media/CalculatorFull.15e4cd98be4225938458.png",
     "index.html": "/Portfolio-Site-OL/index.html",
-    "main.652a0a81.css.map": "/Portfolio-Site-OL/static/css/main.652a0a81.css.map",
+    "main.d523155c.css.map": "/Portfolio-Site-OL/static/css/main.d523155c.css.map",
     "main.185e2ee1.js.map": "/Portfolio-Site-OL/static/js/main.185e2ee1.js.map"
   },
   "entrypoints": [
-    "static/css/main.652a0a81.css",
+    "static/css/main.d523155c.css",
     "static/js/main.185e2ee1.js"
   ]
 }
