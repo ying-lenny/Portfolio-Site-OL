@@ -23,7 +23,7 @@ function SmallProjectItem( props ) {
 								<a href={links[1]}>Live site</a> 
 							</div>
 							<div className="return-button">
-							<Link  to='/'>View Projects</Link>
+							<Link  to='/Portfolio-Site-OL/'>View Projects</Link>
 						</div>
 						</div>
 					</div>

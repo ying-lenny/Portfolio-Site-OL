@@ -14,7 +14,7 @@ export default function BigProjectButtons(props) {
           {props.text}
       </a>
       <div className="return-button">
-        <Link  to='/'>&larr; Return to home</Link>
+        <Link  to='/Portfolio-Site-OL/'>&larr; Return to home</Link>
       </div>
     </div>
   )

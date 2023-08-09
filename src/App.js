@@ -28,7 +28,7 @@ function App() {
 							return (
 								<Route 
 									key={small.id}
-									exact path={`/personal/${small.id}`}
+									exact path={`/Portfolio-Site-OL/personal/${small.id}`}
 									element = {<SmallProjectItem project={small}/>}
 									/>
 								)

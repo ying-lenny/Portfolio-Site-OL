@@ -13,7 +13,7 @@ function SmallProjectCard(props) {
 				<figcaption className="container-caption">
 					<h2>{title}</h2>
 					<button className="button is-primary">
-						<Link key={id} to={`/personal/${id}`}>Learn More</Link>
+						<Link key={id} to={`/Portfolio-Site-OL/personal/${id}`}>Learn More</Link>
 					</button>
 				</figcaption>
 				</figure>

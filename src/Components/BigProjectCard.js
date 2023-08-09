@@ -16,7 +16,7 @@ function BigProjectCard(props) {
 						{description}
 					</p>
 				<button className="button is-primary">
-					<Link key={id} to={`/${title.replace(/\s/g, "-")}`}>Learn More</Link>
+					<Link key={id} to={`/Portfolio-Site-OL/${title.replace(/\s/g, "-")}`}>Learn More</Link>
 				</button>
 			  </figcaption>
 			</figure>
