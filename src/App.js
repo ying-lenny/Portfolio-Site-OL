@@ -21,9 +21,9 @@ function App() {
 						<Route exact path='/Portfolio-Site-OL/' element={<Homepage/>}/>
 						<Route exact path='/page2' element={<ProjectPage/>}/>
 						<Route exact path='/page3' element={<ContactPage/>}/>
-						<Route exact path='/PortFoliGo' element={<PFG/>}/>
-						<Route exact path='/Egeplast-Ireland' element={<Egeplast/>}/>
-						<Route exact path='/Employee-of-The-Month' element={<EOTM/>}/>
+						<Route exact path='/Portfolio-Site-OL/PortFoliGo' element={<PFG/>}/>
+						<Route exact path='/Portfolio-Site-OL/Egeplast-Ireland' element={<Egeplast/>}/>
+						<Route exact path='/Portfolio-Site-OL/Employee-of-The-Month' element={<EOTM/>}/>
 						{small_projects.map((small) => {
 							return (
 								<Route 
