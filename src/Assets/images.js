@@ -7,6 +7,10 @@ let images = {
       require('./PersonalProjects/Calculator/CalculatorIcon.png'),
       require('./PersonalProjects/Calculator/CalculatorFull.png'),
     ],
+    findAPlace: [
+      require('./PersonalProjects/FindAPlace/FindAPlaceIcon.png'),
+      require('./PersonalProjects/Calculator/CalculatorIcon.png'),
+    ],
   },
   bigProjects: {
     egeplast: [

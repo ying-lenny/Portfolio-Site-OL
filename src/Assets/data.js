@@ -49,11 +49,11 @@ let small_projects = [
 	},
 	{
 		id: 1,
-		title: 'Rock, Paper, Scissors!',
+		title: 'Find-A-Place',
 		description: "Brief overview of Rock, Paper, Scissors goes here",
 		images: [
-			images.personalProjects.temp[0],
-			images.personalProjects.temp[0],
+			images.personalProjects.findAPlace[0],
+			images.personalProjects.temp[1],
 		],
 		links: [
 
