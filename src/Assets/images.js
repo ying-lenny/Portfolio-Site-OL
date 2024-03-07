@@ -9,7 +9,7 @@ let images = {
     ],
     findAPlace: [
       require('./PersonalProjects/FindAPlace/FindAPlaceIcon.png'),
-      require('./PersonalProjects/Calculator/CalculatorIcon.png'),
+      require('./PersonalProjects/FindAPlace/FindAPlaceFull.png'),
     ],
   },
   bigProjects: {

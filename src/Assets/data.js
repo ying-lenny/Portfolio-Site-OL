@@ -37,7 +37,9 @@ let small_projects = [
 	{
 		id: 0,
 		title: 'Calculator',
-		description: "An online calculator with basic arithmetic operations built using HTML5, CSS3 and JS ES6 features.",
+		description: 
+			`An online calculator with basic arithmetic operations built 
+			using HTML5, CSS3 and JS ES6 features.`,
 		images: [
 			images.personalProjects.calculator[0],
 			images.personalProjects.calculator[1],
@@ -50,10 +52,16 @@ let small_projects = [
 	{
 		id: 1,
 		title: 'Find-A-Place',
-		description: "Brief overview of Rock, Paper, Scissors goes here",
+		description: 
+			`Find-A-Place is a fullstack Web App that allows users to search for Countries 
+			via a name search bar, which returns various pieces of information
+			such as their capital, populcation, and currency
+			
+			The frontend is React and the backend consists of Node and Express
+			`,
 		images: [
 			images.personalProjects.findAPlace[0],
-			images.personalProjects.temp[1],
+			images.personalProjects.findAPlace[1],
 		],
 		links: [
 
