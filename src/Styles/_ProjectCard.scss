@@ -30,6 +30,10 @@
 	}
 }
 
+.display-linebreak {
+  white-space: pre-line;
+}
+
 .project-card-description {
 	display: flex;
 	border-radius: 1em;
