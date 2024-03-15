@@ -215,6 +215,7 @@ figure {
 .project-card-image img {
   border: 0.5em white solid;
   border-radius: 1em;
+  width: 100%;
 }
 
 .display-linebreak {
@@ -555,7 +556,7 @@ figure {
     padding-right: 1em;
   }
   .project-card-description {
-    min-width: 50%;
+    max-width: 50%;
   }
   .body, .header-links {
     width: 70%;

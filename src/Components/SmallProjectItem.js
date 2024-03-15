@@ -6,8 +6,6 @@ function SmallProjectItem( props ) {
 		project: { id, title, description, images, links },
 	} = props;
 
-	console.log(description)
-
 	return (
 		<div id={id} className="project-card-container">
 			<h1 className="project-card-title">{title}</h1>

@@ -53,10 +53,11 @@ let small_projects = [
 		id: 1,
 		title: 'Find-A-Place',
 		description: 
-			`Find-A-Place is a fullstack Web App that has search functionality for Countries
-			via a name search bar, which returns various pieces of information
-			such as their capital, populcation, and currency. \n
-			The frontend was made using React JS and the backend consists of Node and Express
+			`Find-A-Place is a fullstack Web App that has search functionality \
+			for Countries via a name search bar, which returns various pieces \
+			of informationsuch as their capital, populcation, and currency. \n
+			The frontend was made using React JS, and the backend consists of \
+			Node and Express connecting to the Countries REST API.
 			`,
 		images: [
 			images.personalProjects.findAPlace[0],

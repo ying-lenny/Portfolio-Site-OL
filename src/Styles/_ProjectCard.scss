@@ -27,6 +27,7 @@
 	& img {
 		border: 0.5em white solid;
 		border-radius: 1em;
+		width: 100%;
 	}
 }
 
@@ -67,7 +68,6 @@
 				text-decoration: none;
 				outline: 0.2em solid black;
 				transition: 0.3s;
-				
 				&:first-child{
 					border-top-left-radius: 1em;
 					border-bottom-left-radius: 1em;
