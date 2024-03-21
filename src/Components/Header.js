@@ -15,6 +15,8 @@ export default function Header() {
 						<ul>
 							<li>
 								<Link to='/Portfolio-Site-OL/'>Home</Link>
+								<Link to='/Portfolio-Site-OL/page2'>page2</Link>
+								<Link to='/Portfolio-Site-OL/page3'>page3</Link>
 							</li>
 						</ul>
 					</div>
@@ -25,6 +27,8 @@ export default function Header() {
 							<ul class="dropdown">
 								<li>
 									<Link to='/Portfolio-Site-OL/'>Home</Link>
+									<Link to='/Portfolio-Site-OL/page2'>page2</Link>
+									<Link to='/Portfolio-Site-OL/page3'>page3</Link>
 								</li>
 							</ul>
 							</li>

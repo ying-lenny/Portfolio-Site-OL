@@ -19,8 +19,8 @@ function App() {
 				<div className='body'>
 					<Routes>
 						<Route exact path='/Portfolio-Site-OL/' element={<Homepage/>}/>
-						<Route exact path='/page2' element={<ProjectPage/>}/>
-						<Route exact path='/page3' element={<ContactPage/>}/>
+						<Route exact path='/Portfolio-Site-OL/page2' element={<ProjectPage/>}/>
+						<Route exact path='/Portfolio-Site-OL/page3' element={<ContactPage/>}/>
 						<Route exact path='/Portfolio-Site-OL/PortFoliGo' element={<PFG/>}/>
 						<Route exact path='/Portfolio-Site-OL/Egeplast-Ireland' element={<Egeplast/>}/>
 						<Route exact path='/Portfolio-Site-OL/Employee-of-The-Month' element={<EOTM/>}/>
