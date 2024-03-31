@@ -384,6 +384,28 @@ figure {
   color: #7d09f1;
 }
 
+.interest-gallery-section .interest-gallery-content {
+  padding: 0;
+}
+
+.interest-options {
+  display: flex;
+}
+
+.interest-typesetting, .interest-3D, .interest-ps, .interest-other {
+  width: 25%;
+  transition: 0.5s;
+}
+.interest-typesetting:hover, .interest-3D:hover, .interest-ps:hover, .interest-other:hover {
+  width: 50%;
+}
+.interest-typesetting img, .interest-3D img, .interest-ps img, .interest-other img {
+  max-width: 26vh;
+}
+.interest-typesetting a, .interest-3D a, .interest-ps a, .interest-other a {
+  width: 100%;
+}
+
 .light .App, .light .about-text, .light .project-grid-header, .light .project-card-description, .light .big-project-description {
   background-color: #ffffff;
   color: #0f0d0d;

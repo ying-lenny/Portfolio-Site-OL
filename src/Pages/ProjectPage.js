@@ -1,16 +1,28 @@
 import React from "react";
-import Interest from "../Assets/InterestTemplate.png"
+import InterestType from "../Assets/InterestTemplateTypesetting.png"
+import Interest3D from "../Assets/InterestTemplate3D.png"
+import InterestPS from "../Assets/InterestTemplatePS.png"
+import InterestOther from "../Assets/InterestTemplateOther.png"
 
 function ProjectPage() {
 	return (
-		<div className="interest-gallery">
+		<div className="interest-gallery-section">
 			<h1>My Interests</h1>
 			<div className="interest-gallery-content">
-				<img src={Interest} alt="Interest Template"/>
-				<h2>Typesetting</h2>
-				<h2>3D Modelling</h2>
-				<h2>Photoshop</h2>
-				<h2>Others</h2>
+				<div className="interest-options">
+					<div className="interest-typesetting">
+						<a href=""><img src={InterestType} alt="Interest Typesetting"/></a>
+					</div>
+					<div className="interest-3D">
+						<a href=""><img src={Interest3D} alt="Interest 3D"/></a>
+					</div>
+					<div className="interest-ps">
+						<a href=""><img src={InterestPS} alt="Interest PhotoShop"/></a>
+					</div>
+					<div className="interest-other">
+						<a href=""><img src={InterestOther} alt="Interest Other"/></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	)

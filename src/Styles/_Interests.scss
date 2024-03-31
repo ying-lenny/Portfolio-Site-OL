@@ -1,0 +1,22 @@
+.interest-gallery-section
+  .interest-gallery-content {
+    padding: 0;
+  }
+
+  .interest-options {
+    display: flex;
+  }
+
+  .interest-typesetting, .interest-3D, .interest-ps, .interest-other {
+    width: ((100%)/4); 
+    transition: 0.5s;
+    &:hover {
+      width: ((100%)/2);
+    }
+    & img {
+      max-width: 26vh;
+    }
+    & a {
+      width: 100%; 
+    }
+  }
